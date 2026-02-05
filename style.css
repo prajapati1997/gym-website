@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url("https://images.unsplash.com/photo-1558611848-73f7eb4001a1");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #222;
+  padding: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* BMI */
+.bmi {
+  text-align: center;
+  padding: 50px;
+  background: #1c1c1c;
+}
+
+.bmi input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.bmi button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background: black;
+  text-align: center;
+  padding: 20px;
+}

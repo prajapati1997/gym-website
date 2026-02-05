@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerFit Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>PowerFit Gym</h2>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#bmi">BMI</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Train Hard, Stay Strong</h1>
+    <p>Your body can stand almost anything. It’s your mind you have to convince.</p>
+    <button onclick="joinGym()">Join Now</button>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">🏋️ Weight Training</div>
+      <div class="card">🤸 Cardio</div>
+      <div class="card">🥊 Boxing</div>
+      <div class="card">🧘 Yoga</div>
+    </div>
+  </section>
+
+  <!-- BMI Calculator -->
+  <section id="bmi" class="bmi">
+    <h2>BMI Calculator</h2>
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="number" id="height" placeholder="Height (cm)">
+    <button onclick="calculateBMI()">Calculate</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>📍 PowerFit Gym | 📞 9876543210</p>
+    <p>© 2026 PowerFit Gym</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
